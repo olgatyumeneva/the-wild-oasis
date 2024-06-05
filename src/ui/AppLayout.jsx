@@ -9,6 +9,9 @@ const StyledAppLayout = styled.div`
   grid-template-rows: auto 1fr;
 
   height: 100vh;
+  ::-webkit-scrollbar {
+    height: 0;
+  }
 `;
 
 const Main = styled.main`
