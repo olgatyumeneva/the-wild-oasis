@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 src/features/cabins/CreateCabinForm-v1.jsx
 src/features/cabins/CabinTable-v1.jsx
+src/ui/Modal-v1.jsx
