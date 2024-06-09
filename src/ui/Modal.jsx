@@ -2,8 +2,6 @@ import {
   cloneElement,
   createContext,
   useContext,
-  useEffect,
-  useRef,
   useState,
 } from "react";
 import { createPortal } from "react-dom";
@@ -84,13 +82,9 @@ function Modal({ children }) {
 function Open({ children, opens: opensWindowName }) {
   const { open } = useContext(ModalContext);
 
-  return (
-    <div>
-      {cloneElement(children, {
-        onClick: () => open(opensWindowName),
-      })}
-    </div>
-  );
+  return cloneElement(children, {
+    onClick: () => open(opensWindowName),
+  });
 }
 
 function Window({ children, name }) {
