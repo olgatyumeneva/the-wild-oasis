@@ -196,5 +196,3 @@ function DurationChart({ confirmedStays }) {
 }
 
 export default DurationChart;
-{
-}
