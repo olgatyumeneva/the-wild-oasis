@@ -64,5 +64,5 @@ npm install
 - Start local server via Vite
 
 ```js
-npm start dev
+npm run dev
 ```
